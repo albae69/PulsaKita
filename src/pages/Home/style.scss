@@ -2,6 +2,7 @@
     background-color: #605f9a;
     border-radius: 0;
     justify-content: center;
+    text-align: center;
     .img {
         height: 250px;
     }
@@ -10,10 +11,30 @@
         color: white;
         font-family: monospace;
     }
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+.form {
+    background-color: white;
 }
 
 @media only screen and (min-width: 768px) {
     .jumbotron {
-        height: 350px;
+        height: 400px;
+        .img {
+            margin-top: -50px;
+        }
+        h1,
+        p {
+            text-align: left;
+        }
+    }
+    .form {
+        height: 100px;
     }
 }
