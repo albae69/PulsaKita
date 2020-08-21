@@ -9,13 +9,14 @@
     h1,
     p {
         color: white;
-        font-family: monospace;
+        font-family: 'Nunito', sans-serif;
     }
     h1 {
-        font-size: 24px;
+        font-size: 36px;
     }
     p {
-        font-size: 16px;
+        font-size: 18px;
+        font-style: italic;
     }
     .operator {
         height: 50px;
@@ -35,6 +36,7 @@
 
 @media only screen and (min-width: 768px) {
     .jumbotron {
+        font-family: 'Nunito', sans-serif;
         height: 400px;
         .img {
             margin-top: -50px;
@@ -49,5 +51,6 @@
         border-radius: 10px;
         padding-left: 50px;
         padding-right: 50px;
+        width: 85%;
     }
 }

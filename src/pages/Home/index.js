@@ -42,11 +42,16 @@ const Home = () => {
                             <img src={img} alt='' className='img' />
                         </div>
                         <div className='col-sm'>
-                            <h1 className='display-6'>Isi Ulang Pulsa Anda</h1>
+                            <h1 className='display-5'>Isi Ulang Pulsa Anda</h1>
                             <p className='lead'>
                                 isi ulang pulsa gapake ribet di{' '}
-                                <span style={{ color: '#112557' }}>Pulsa</span>
-                                Kita, tersedia juga Pembayaran Listrik, Dll.
+                                <strong>
+                                    <span style={{ color: '#112557' }}>
+                                        Pulsa
+                                    </span>
+                                    Kita
+                                </strong>
+                                , tersedia juga Pembayaran Listrik, Dll.
                             </p>
                             <div className='operator'>
                                 {arr.map(s => (
